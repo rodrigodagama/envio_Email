@@ -3,14 +3,14 @@ const nodemailer = require('nodemailer');
 const transporter = nodemailer.createTransport({
     service: 'hotmail',
     auth: {
-        user: 'rodrigodagama@outlook.com',
-        pass: 'D6eZzga4HRbjUh#A'
+        user: 'Seu email',
+        pass: 'Senha do seu email'
     }
 });
 
 const mailOptions = {
-    from: 'rodrigodagama@outlook.com',
-    to: 'rodrigodagamma@gmail.com, rgamakch@hotmail.com',
+    from: 'Seu email',
+    to: 'Email Destinatário',
     subject: 'Solicitação de Informação sobre acesso de dados de Licitação de Alimentação',
     html: `
     <html>
